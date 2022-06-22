@@ -1,0 +1,59 @@
+[
+    {
+        "id": 0,
+        "type": "question",
+        "content": "初めまして、マンと申します。"
+    },
+    {
+        "id": 1,
+        "type": "question",
+        "content": "知りたいことを選択してください。",
+        "options" : [
+            {
+                "question": "出身",
+                "id_answer": 2
+            },
+            {
+                "question": "経験",
+                "id_answer": 3
+            },
+            {
+                "question": "日本語",
+                "id_answer": 4
+            },
+            {
+                "question": "最近の案件",
+                "id_answer": 5
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "answer",
+        "content": "出身は教えてください。",
+        "answer": "フエーから参りました。ベトナム人です。"
+    },
+    {
+        "id": 3,
+        "type": "answer",
+        "content": "経験は教えてください。",
+        "answer": "7年間ウェブサイトを開発していました。</br>ベトナムには３年半ぐらい。</br>日本には３年半ぐらいです。</br>ほとんどは CMS Wordpressで使用します、以外は フレームワーク Laravel です。"
+    },
+    {
+        "id": 4,
+        "type": "answer",
+        "content": "日本語は教えてください。",
+        "answer": "日本語は日常会話レベルぐらいです。"
+    },
+    {
+        "id": 5,
+        "type": "answer",
+        "content": "最近の案件は教えてください。",
+        "answer": "最近の案件は<a href='https://galapagos-family.jp/' target='_blank'>Galapagos For Family</a><br/>・ペットと施設予約システムサイトです。<br/>・ユーザーのマイページ、情報管理、予約確認、ペット管理、ポイント管理。。。<br/>・施設のマイページ、情報管理、予約確認、メール管理、メッセージ管理、施設の詳細ページ管理、メニュー管理。。。<br/>・ユーザーと施設は運営側が管理します。"
+    },
+    {
+        "id": 100,
+        "type": "question",
+        "content": "すみませんが知りたいことができなかったら、<a href='mailto:jobken90@gmail.com'>jobken90@gmail.com</a>メールで連絡してください、待ちます。"
+    }
+]
